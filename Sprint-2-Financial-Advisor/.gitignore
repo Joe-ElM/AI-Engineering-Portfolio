@@ -1,0 +1,23 @@
+# Jupyter notebooks (dev only)
+notebooks/*.ipynb
+notebooks/*.py
+# Data files
+data/hist_prices.csv
+# Secret environment variables
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# VS Code project settings
+.vscode/
+
+# Financial documents (new)
+data/financial_docs/*.pdf
+
+# Vector database (new)
+data/chroma_db/
+
+# Generated plots (new)
+# data/*.png
